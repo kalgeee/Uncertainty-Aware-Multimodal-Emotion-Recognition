@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# Data files (too large for GitHub)
+data/raw/
+data/IEMOCAP/
+data/RAVDESS/
+data/MELD/
+*.wav
+*.mp4
+*.avi
+*.h5
+
+# Model checkpoints
+*.pth
+*.pt
+checkpoints/
+results/models/*.pth
+
+# Logs
+logs/
+*.log
+wandb/
+.wandb/
+
+# Environment
+.env
+.venv
+venv/
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store
+
+# Temporary files
+*.tmp
+.cache/

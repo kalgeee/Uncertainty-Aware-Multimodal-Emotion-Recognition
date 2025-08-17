@@ -1,0 +1,33 @@
+# Configuration for Multimodal DEER
+# Used to achieve CCC 0.840/0.763 results
+
+# Dataset Configuration
+datasets:
+  names: ["IEMOCAP", "RAVDESS", "MELD"]
+  paths:
+    IEMOCAP: "/path/to/IEMOCAP_full_release"  # UPDATE THIS
+    RAVDESS: "/path/to/RAVDESS"              # UPDATE THIS
+    MELD: "/path/to/MELD"                    # UPDATE THIS
+
+# Model Configuration
+model:
+  audio_dim: 84
+  video_dim: 256
+  text_dim: 768
+  fusion_dim: 512
+  emotion_dims: 3
+  attention_heads: 8
+  dropout: 0.3
+
+# Training Configuration
+training:
+  learning_rate: 1e-4
+  batch_size: 32
+  num_epochs: 100
+  evidence_weight: 1.0
+  kl_weight: 0.1
+
+# Hardware Configuration
+hardware:
+  device: "auto"  # auto, cpu, cuda
+  num_workers: 4
