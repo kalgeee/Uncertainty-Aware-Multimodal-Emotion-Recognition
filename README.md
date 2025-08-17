@@ -51,7 +51,7 @@ This project implements a state-of-the-art multimodal emotion recognition system
 | Bi-Modal Transformer | AAAI 2024 | 0.715 | ❌ |
 | Hierarchical Graph Fusion | ICCV 2023 | 0.742 | ❌ |
 | Wu et al. DEER | NeurIPS 2023 | 0.676 | ✅ (Unimodal) |
-| **Our Multimodal DEER** | **This Work** | **0.802** | **✅ (Multimodal)** |
+| **My Multimodal DEER** | **This Work** | **0.802** | **✅ (Multimodal)** |
 
 ---
 
